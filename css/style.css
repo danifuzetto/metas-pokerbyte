@@ -26,7 +26,6 @@ body {
 
 .type {
     font-family: "Poppins", sans-serif;
-    width: 100%;
     padding: 5px 0;
     text-align: center;
     font-size: 18px;
@@ -61,26 +60,89 @@ body {
     color: white;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.eventName {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.date-union {
+    font-family: "poppins", sans-serif;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.union {
+    float: right;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.date {
+    float: left;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.me-colors {
+    color: #FFA239;
+    border: 1px solid #FFA239;
+}
+
+.sat-colors {
+    color: ACACAC;
+    border: 1px solid #ACACAC;
+}
+
+.par-colors {
+    color: #2272ea;
+    border: 1px solid #2272ea;
+}
+
+.buy-in {
+    color: white;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+.bi-gtd-me {
+    background-color: #FFA239;
+}
+
+.bi-gtd-sat {
+    background-color: #ACACAC;
+}
+
+.bi-gtd-par {
+    background-color: #2272ea;
+}
+
+.gtd {
+    color: white;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
 .card-footer {
     position: absolute;
     bottom: 0px;
-    background-color: #2DaaD8;
     color: white;
     width: 100%;
     max-width: 100%;
     text-align: center;
     padding: 10px 0;
-}
-
-.eventName{
-    width: 100%;
-    font-weight: 600;
-    margin: 10px 0;
-    padding: 5px 0;
-}
-
-
-
-.gtd {
-    background-color: #2DaaD8;
 }
