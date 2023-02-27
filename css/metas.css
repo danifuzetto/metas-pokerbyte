@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #EFF1F7;
+    margin: 0;
+    padding: 0;
+}
+
+.tournament-title {
+    display: flex;
+    align-items: center;
+    color: #28a9d8;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    height: 36px;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    width: 600px;
+    max-width: 600px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28a9d8;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.update {
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 36px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.button-area {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.button-style {
+    background-color: #28a9d8;
+    color: white;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-style:hover,.close:hover {
+    background-color: #43b9e3;
+}
