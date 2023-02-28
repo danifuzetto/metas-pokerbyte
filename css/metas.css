@@ -80,6 +80,8 @@ body {
 
 .container {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-config {
@@ -104,10 +106,22 @@ body {
 
 .myclub {
     background-color: #e9f8ff;
+    cursor: pointer;
 }
 
 .rank {
     display: flex;
+}
+
+.left-side {
+    width: 55%;
+}
+
+.right-side {
+    width: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 .position {
@@ -123,7 +137,7 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    width: 230px;
+    width: 160px;
     overflow: hidden;
 }
 
@@ -147,7 +161,7 @@ body {
 
 .bra-values {
     display: flex;
-    align-items:self-end;
+    align-items: self-end;
     margin: 0 5px;
     font-size: 11px;
 }
@@ -156,7 +170,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 58px;
+    width: 54px;
     text-align: center;
     overflow: hidden;
 }
@@ -165,7 +179,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 38px;
     text-align: center;
     overflow: hidden;
 }
@@ -195,7 +209,53 @@ body {
 }
 
 .balance-positive {
-    background-color: green;
+    background-color: rgb(20, 179, 20);
     color: rgb(255, 255, 255);
 }
 
+.logo-pb {
+    max-width: 200px;
+}
+
+.card-mtt-infos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-mtt-title {
+    color: #43b9e3;
+    text-align: left;
+}
+
+.card-mtt-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    background-color: #43b9e3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #43b9e3;
+}
+
+.color-inverse {
+    color: #43b9e3;
+    background-color: white;
+    border: 1px solid #43b9e3;
+}
+
+.mtt-date {
+    display: flex;
+    width: 100%;
+}
+
+.mtt-date-header {
+    width: 50%;
+}
