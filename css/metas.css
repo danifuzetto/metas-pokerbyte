@@ -20,8 +20,7 @@ body {
 .card {
     position: relative;
     background-color: white;
-    width: 600px;
-    max-width: 600px;
+    max-width: 1000px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -74,6 +73,129 @@ body {
     font-size: 14px;
 }
 
-.button-style:hover,.close:hover {
+.button-style:hover,
+.close:hover {
     background-color: #43b9e3;
 }
+
+.container {
+    margin-top: 20px;
+}
+
+.header-config {
+    background: #28a9d8;
+    border: 1px solid #28a9d8;
+    margin-left: 1px;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rank-line-config {
+    color: #28a9d8;
+    border: 1px solid #28a9d8;
+    margin-left: 1px;
+    margin-top: 1px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.myclub {
+    background-color: #e9f8ff;
+}
+
+.rank {
+    display: flex;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+
+.client {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 230px;
+    overflow: hidden;
+}
+
+.client-tournament-infos {
+    display: flex;
+    margin-top: 5px;
+}
+
+.bra-info-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #43b9e3;
+    color: white;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.bra-values {
+    display: flex;
+    align-items:self-end;
+    margin: 0 5px;
+    font-size: 11px;
+}
+
+.target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+
+.balance-negative {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.balance-positive {
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
