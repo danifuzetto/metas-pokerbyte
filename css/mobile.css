@@ -1,0 +1,36 @@
+@media screen and (max-width: 830px) {
+    *::-webkit-scrollbar {
+        width: 0px;               /* width of the entire scrollbar */
+    }
+    
+    .card {
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+        border-radius: 0px;
+        height: calc(100vh - 20px);
+        max-height: calc(100vh - 20px);
+    }
+    
+    .right-side {
+        display: none;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .rank {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .total-bar-fixed {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .rank-line-config {
+    padding: 2px 3px;
+    font-size: 12px;
+}
+}

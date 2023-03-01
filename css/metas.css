@@ -7,10 +7,24 @@ body {
     padding: 0;
 }
 
+*::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+}
+  
+*::-webkit-scrollbar-track {
+    background: none;        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2daab888;    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */
+} 
+
+
 .tournament-title {
     display: flex;
     align-items: center;
-    color: #28a9d8;
+    color: #2DAAB8;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -20,12 +34,13 @@ body {
 .card {
     position: relative;
     background-color: white;
-    width: 800px;
-    height: 100%;
+    width: 806px;
+    max-height: calc(100vh - 20px);
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
     padding: 10px;
+    /* overflow: auto; */
 }
 
 .close {
@@ -35,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #28a9d8;
+    background-color: #2DAAB8;
     color: white;
     width: 36px;
     height: 36px;
@@ -44,37 +59,24 @@ body {
     font-weight: 300;
 }
 
-.update {
-    position: absolute;
-    top: 10px;
-    right: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    height: 36px;
-    font-size: 13px;
-    font-style: italic;
-    font-weight: 400;
-}
-
 .button-area {
     max-width: 100%;
     margin: 10px 0;
 }
 
 .button-style {
-    background-color: #28a9d8;
+    background-color: #2DAAB8;
     color: white;
     height: 36px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .button-style:hover,
 .close:hover {
-    background-color: #43b9e3;
+    background-color: #38c4d4;
 }
 
 .container {
@@ -84,8 +86,8 @@ body {
 }
 
 .header-config {
-    background: #28a9d8;
-    border: 1px solid #28a9d8;
+    background: #2DAAB8;
+    border: 1px solid #2DAAB8;
     margin-left: -1px;
     color: white;
     padding: 10px;
@@ -94,11 +96,11 @@ body {
 }
 
 .rank-line-config {
-    color: #28a9d8;
-    border: 1px solid #28a9d8;
+    color: #676B84;
+    border: 1px solid #2DAAB8;
     margin-left: -1px;
     margin-top: -1px;
-    padding: 10px;
+    padding: 2px 10px;
     font-size: 14px;
     font-weight: 400;
 }
@@ -112,12 +114,18 @@ body {
     display: flex;
 }
 
+.ranking-loop {
+    max-height: calc(100vh - 36px - 10px - 36px - 30px - 88px);
+    margin-bottom: 39px;
+    overflow: auto;
+}
+
 .left-side {
-    width: 560px;
+    width: 570px;
 }
 
 .right-side {
-    max-width: 260px;
+    max-width: 250px;
     padding: 0 0 0 10px;
     box-sizing: border-box;
     display: flex;
@@ -133,6 +141,7 @@ body {
     max-width: 20px;
     /* border-radius: 5px 0 0 5px; */
     overflow: hidden;
+    margin-left: 1px;
 }
 
 .client {
@@ -152,7 +161,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #43b9e3;
+    background-color: #2DAAB8;
     color: white;
     font-size: 10px;
     width: 16px;
@@ -206,12 +215,12 @@ body {
 }
 
 .balance-negative {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 47, 47);
     color: rgb(255, 255, 255);
 }
 
 .balance-positive {
-    background-color: rgb(20, 179, 20);
+    background-color: rgb(8, 162, 8);
     color: rgb(255, 255, 255);
 }
 
@@ -224,13 +233,14 @@ body {
 }
 
 .card-mtt-infos {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
 }
 
 .card-mtt-title {
-    color: #43b9e3;
+    color: #676B84;
     text-align: left;
+    font-size: 14px;
 }
 
 .card-mtt-data {
@@ -239,19 +249,19 @@ body {
     justify-content: center;
     margin: 1px 2px 10px 0;
     padding: 10px;
-    background-color: #43b9e3;
+    background-color: #2DAAB8;
     box-sizing: border-box;
     border-radius: 5px;
     color: white;
     font-size: 15px;
     font-weight: 500;
-    border: 1px solid #43b9e3;
+    border: 1px solid #2DAAB8;
 }
 
 .color-inverse {
-    color: #43b9e3;
+    color: #2DAAB8;
     background-color: white;
-    border: 1px solid #43b9e3;
+    border: 1px solid #2DAAB8;
 }
 
 .mtt-date {
@@ -272,3 +282,21 @@ body {
     width: 60%;
 }
 
+.overlay-mtt {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid red;
+}
+
+.rank-total {
+    width: calc(20px + 192px + 21px);
+    max-width: 500px;
+}
+
+.format-rank-total {
+    font-weight: 500;
+}
+
+.total-bar-fixed {
+    position: absolute;
+    bottom: 10px;
+}
