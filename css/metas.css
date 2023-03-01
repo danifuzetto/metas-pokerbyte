@@ -20,11 +20,10 @@ body {
 .card {
     position: relative;
     background-color: white;
-    max-width: 1000px;
+    width: 800px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -87,7 +86,7 @@ body {
 .header-config {
     background: #28a9d8;
     border: 1px solid #28a9d8;
-    margin-left: 1px;
+    margin-left: -1px;
     color: white;
     padding: 10px;
     font-size: 14px;
@@ -97,8 +96,8 @@ body {
 .rank-line-config {
     color: #28a9d8;
     border: 1px solid #28a9d8;
-    margin-left: 1px;
-    margin-top: 1px;
+    margin-left: -1px;
+    margin-top: -1px;
     padding: 10px;
     font-size: 14px;
     font-weight: 400;
@@ -114,13 +113,15 @@ body {
 }
 
 .left-side {
-    width: 55%;
+    width: 560px;
 }
 
 .right-side {
-    width: 40%;
+    max-width: 260px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
     display: flex;
-    text-align: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -128,8 +129,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    border-radius: 5px 0 0 5px;
+    width: 20px;
+    max-width: 20px;
+    /* border-radius: 5px 0 0 5px; */
     overflow: hidden;
 }
 
@@ -137,7 +139,7 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    width: 160px;
+    width: 192px;
     overflow: hidden;
 }
 
@@ -199,7 +201,7 @@ body {
     justify-content: center;
     width: 68px;
     text-align: center;
-    border-radius: 0 5px 5px 0;
+    /* border-radius: 0 5px 5px 0; */
     overflow: hidden;
 }
 
@@ -214,14 +216,16 @@ body {
 }
 
 .logo-pb {
-    max-width: 200px;
+    max-width: 180px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-mtt-infos {
     margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
 }
 
 .card-mtt-title {
@@ -229,19 +233,18 @@ body {
     text-align: left;
 }
 
-.card-mtt-name {
+.card-mtt-data {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 98%;
-    margin: 5px 0 20px 0;
+    margin: 1px 2px 10px 0;
     padding: 10px;
     background-color: #43b9e3;
     box-sizing: border-box;
     border-radius: 5px;
     color: white;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 500;
     border: 1px solid #43b9e3;
 }
 
@@ -253,9 +256,19 @@ body {
 
 .mtt-date {
     display: flex;
+    justify-content: space-around;
     width: 100%;
 }
 
 .mtt-date-header {
     width: 50%;
 }
+
+.dimension-buyin {
+    width: 40%;
+}
+
+.dimension-gtd {
+    width: 60%;
+}
+
