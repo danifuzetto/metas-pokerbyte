@@ -4,19 +4,31 @@
     }
     
     .card {
-        width: calc(100% - 20px);
-        max-width: calc(100% - 20px);
+        width: calc(100% - 10px)!important;
+        max-width: calc(100% - 10px)!important;
+        width: 100%;
+        max-width: 100%;
+        height: calc(100%);
+        max-height: calc(100%);
         border-radius: 0px;
-        height: calc(100vh - 20px);
-        max-height: calc(100vh - 20px);
     }
     
     .right-side {
         display: none;
     }
 
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
     .left-side {
         width: 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .rank {
@@ -24,13 +36,82 @@
         max-width: 100%;
     }
 
-    .total-bar-fixed {
+    .ranking-loop {
+        box-sizing: border-box;
+        width: 100%;
+        max-height: 100%;
+        margin-bottom: 0px;
+        overflow: initial;
+    }
+
+    .position {
+        max-width: 100%;
+        min-width: 15px;
+    }
+
+    .client {
         width: 100%;
         max-width: 100%;
+        min-width: 110px;
+    }
+
+    .target {
+        width: 30%;
+        max-width: 100%;
+        min-width: 38px;
+    }
+
+    .actions {
+        width: 30%;
+        max-width: 100%;
+        min-width: 28px;
+    }
+
+    .balance {
+        width: 30%;
+        max-width: 100%;
+        min-width: 42px;
+    }
+
+    .overlay {
+        width: 40%;
+        max-width: 100%;
+        min-width: 38px;
+    }
+
+    .rank-total {
+        min-width: 90px;
+    }
+
+    .total-bar-fixed {
+        display: block;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        transform: translate3d(0,0,0);
+    }
+}
+
+
+@media screen and (max-width: 481px) {
+    .bra-values {
+        font-size: 8px;
     }
 
     .rank-line-config {
-    padding: 2px 3px;
-    font-size: 12px;
-}
+        padding: 2px 1px;
+        font-size: 10px;
+        }
+
+        .header-config {
+            font-size: 10px;
+            padding: 10px 3px;
+        }
+
+        .bra-info-circle {
+            font-size: 8px;
+            width: 12px;
+            height: 12px;
+        }
 }

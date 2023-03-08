@@ -8,7 +8,7 @@ body {
 }
 
 *::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
+    width: 3px;               /* width of the entire scrollbar */
 }
   
 *::-webkit-scrollbar-track {
@@ -16,7 +16,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #2daab888;    /* color of the scroll thumb */
+    background-color: #2daab840;    /* color of the scroll thumb */
     border-radius: 50px;       /* roundness of the scroll thumb */
 } 
 
@@ -35,27 +35,28 @@ body {
     position: relative;
     background-color: white;
     width: 806px;
-    max-height: calc(100vh - 20px);
+    height: calc(100vh - 10px);
+    max-height: calc(100vh - 10px);
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     /* overflow: auto; */
 }
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2DAAB8;
     color: white;
-    width: 36px;
-    height: 36px;
+    width: 26px;
+    height: 26px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -79,7 +80,7 @@ body {
     background-color: #38c4d4;
 }
 
-.container {
+#general {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -112,11 +113,11 @@ body {
 
 .rank {
     display: flex;
+    overflow: hidden;
 }
 
 .ranking-loop {
-    max-height: calc(100vh - 36px - 10px - 36px - 30px - 88px);
-    margin-bottom: 39px;
+    max-height: calc(100vh - 30px - 10px - 30px - 30px - 88px);
     overflow: auto;
 }
 
@@ -126,8 +127,7 @@ body {
 
 .right-side {
     max-width: 250px;
-    padding: 0 0 0 10px;
-    box-sizing: border-box;
+    padding: 0 0 0 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -149,6 +149,8 @@ body {
     justify-content: left;
     flex-direction: column;
     width: 192px;
+    max-width: 192px;
+    min-width: 132px;
     overflow: hidden;
 }
 
@@ -173,7 +175,7 @@ body {
 .bra-values {
     display: flex;
     align-items: self-end;
-    margin: 0 5px;
+    margin: 0 3px;
     font-size: 11px;
 }
 
@@ -247,11 +249,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1px 2px 10px 0;
+    margin: 1px 1px 10px 0;
     padding: 10px;
     background-color: #2DAAB8;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 50px;
     color: white;
     font-size: 15px;
     font-weight: 500;
@@ -289,7 +291,6 @@ body {
 
 .rank-total {
     width: calc(20px + 192px + 21px);
-    max-width: 500px;
 }
 
 .format-rank-total {
@@ -297,6 +298,6 @@ body {
 }
 
 .total-bar-fixed {
-    position: absolute;
-    bottom: 10px;
+    position: sticky;
+    bottom: 5px;
 }
