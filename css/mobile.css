@@ -12,6 +12,10 @@
         max-height: calc(100%);
         border-radius: 0px;
     }
+
+    .button-status {
+        display: inline-block;
+    }
     
     .right-side {
         display: none;
@@ -98,7 +102,7 @@
 }
 
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 485px) {
     .bra-values {
         font-size: 8px;
     }
@@ -118,4 +122,10 @@
             width: 12px;
             height: 12px;
         }
+}
+
+@media screen and (max-height: 601px) {
+    .logo-pb {
+        display: none;
+    }
 }

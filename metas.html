@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metas</title>
-    <link rel="stylesheet" href="./css/metas.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./css/my-club.css">
     <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
@@ -23,13 +25,13 @@
 
         <nav class="button-area">
             <button class="button-style">Geral</button>
-            <button class="button-style">Detalhes do Torneio</button>
+            <button class="button-style button-status">Detalhes do Torneio</button>
             <button class="button-style">Meu Clube</button>
         </nav>
 
-
         <div id="container">
-            <div id="general">
+
+            <div id="general" class="hide">
                 <div class="left-side">
                     <div class="rank menu-header">
                         <div class="position header-config">
@@ -2352,7 +2354,7 @@
                             </div>
                         </div>
                         <!-- FIM RANKING DE METAS -->
-                        
+
                     </div>
 
                     <!-- BARRA TOTAL -->
@@ -2507,15 +2509,170 @@
             <!-- FIM DA PÁGINA GERAL -->
 
             <!-- INÍCIO DA PÁGINA DETALHES DO TORNEIO -->
-            <div id="details">
+            <div id="details" class="hide">
+                <div class="info-tournament-style">
+                    <div class="logo-pb">
+                        <img class="logo-pb" alt="Logo Pokerbyte" src="./images/logo_pb.png" max-width="100%">
+                    </div>
+                    <div class="card-mtt-infos">
+                        <div class="card-mtt-title">
+                            Torneio:
+                        </div>
+                        <div class="card-mtt-data">
+                            ⭐Supremo
+                        </div>
+                        <div class="card-mtt-title">
+                            Liga:
+                        </div>
+                        <div class="card-mtt-data">
+                            Suprema Brasil
+                        </div>
 
+                        <div class="mtt-date">
+
+                            <div class="mtt-date-header">
+                                <div class="card-mtt-title">
+                                    Data:
+                                </div>
+                                <div class="card-mtt-data color-inverse">
+                                    27/02/2023
+                                </div>
+                            </div>
+
+                            <div class="mtt-date-header">
+                                <div class="card-mtt-title">
+                                    Início:
+                                </div>
+                                <div class="card-mtt-data color-inverse">
+                                    12:00
+                                </div>
+                            </div>
+
+                            <div class="mtt-date-header">
+                                <div class="card-mtt-title">
+                                    Late:
+                                </div>
+                                <div class="card-mtt-data">
+                                    16:00
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mtt-date">
+
+                            <div class="mtt-date-header dimension-buyin">
+                                <div class="card-mtt-title">
+                                    Buy-in:
+                                </div>
+                                <div class="card-mtt-data color-inverse">
+                                    <span id="local-currency">
+                                        R$
+                                    </span>
+                                    <span>&nbsp</span>
+                                    <span id="buyin-value">
+                                        2.500,00
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="mtt-date-header dimension-gtd">
+                                <div class="card-mtt-title">
+                                    Garantido:
+                                </div>
+                                <div class="card-mtt-data">
+                                    <span id="local-currency">
+                                        R$
+                                    </span>
+                                    <span>&nbsp</span>
+                                    <span id="gtd-value">
+                                        1.000.000,00
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-mtt-title">
+                            Arrecadado p/ Garantido:
+                        </div>
+                        <div class="card-mtt-data">
+                            <span id="local-currency">
+                                R$
+                            </span>
+                            <span>&nbsp</span>
+                            <span id="mtt-raised">
+                                984.874,00
+                            </span>
+                        </div>
+
+                        <div class="card-mtt-title">
+                            Overlay:
+                        </div>
+                        <div class="card-mtt-data  overlay-mtt">
+                            -
+                            <span>&nbsp</span>
+                            <span id="local-currency">
+                                R$
+                            </span>
+                            <span>&nbsp</span>
+                            <span id="overlay-value">
+                                15.258,90
+                            </span>
+                        </div>
+                        <div class="card-mtt-title">
+                            Atualizado em:
+                        </div>
+                        <div class="card-mtt-data color-inverse">
+                            27/02/2023 18:39
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
             <!-- FIM DA PÁGINA DETALHES DO TORNEIO -->
 
 
             <!-- INÍCIO DA PÁGINA MEU CLUBE -->
-            <div id="my-club">
+            <div id="my-club" class="hide1">
+                <div>
+                    <div class="logo-pb">
+                        <img class="logo-pb" alt="Logo Pokerbyte" src="./images/logo_pb.png" max-width="100%">
+                    </div>
 
+                    <div class="client-my-club">
+                        Poker em Casa
+                    </div>
+
+                    <div class="bra-box">
+                        <div class="buyin-box">
+                            <span class="bra-info-box">
+                                B
+                            </span>
+                            <span class="bra-content-box">
+                                x1.123
+                            </span>
+                        </div>
+
+                        <div class="buyin-box">
+                            <span class="bra-info-box">
+                                R
+                            </span>
+                            <span class="bra-content-box">
+                                x1.123
+                            </span>
+                        </div>
+
+                        <div class="buyin-box">
+                            <span class="bra-info-box">
+                                A
+                            </span>
+                            <span class="bra-content-box">
+                                x1.123
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- FIM DA PÁGINA MEU CLUBE -->
 
