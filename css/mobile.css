@@ -17,7 +17,6 @@
         display: none;
     }
 
-
     .container {
         display: flex;
         align-items: center;
@@ -31,6 +30,11 @@
         flex-direction: column;
     }
 
+    .menu-header {
+        position: sticky;
+        top: 0;
+    }
+    
     .rank {
         width: 100%;
         max-width: 100%;
