@@ -5,2679 +5,499 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metas</title>
-    <link rel="stylesheet" href="./css/geral.css">
-    <link rel="stylesheet" href="./css/details.css">
-    <link rel="stylesheet" href="./css/my-club.css">
-    <link rel="stylesheet" href="./css/mobile.css">
+    <title>Cards Metas</title>
+    <link rel="stylesheet" href="./css/metas.css">
 </head>
 
 <body>
 
+    <div class="bg">
 
-    <div class="card">
-        <div class="close">
-            X
+        <!-- CARTÃO MAIN EVENT -->
+        <div class="card MEc">
+            <!-- TIPO DE EVENTO -->
+            <div class="type MEt">
+                MAIN EVENT
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    ⭐Supremo
+                </div>
+                <div class="date-union">
+                    <div class="union me-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date me-colors">
+                        16:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-me">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-me">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-me">
+                Em andamento
+            </div>
         </div>
-        <h1 class="tournament-title">
+<!-- CARTÃO MAIN EVENT -->
+<div class="card MEc">
+    <!-- TIPO DE EVENTO -->
+    <div class="type MEt">
+        MAIN EVENT
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
             ⭐Supremo
-        </h1>
-
-        <nav class="button-area">
-            <button class="button-style">Geral</button>
-            <button class="button-style button-status">Detalhes do Torneio</button>
-            <button class="button-style">Meu Clube</button>
-        </nav>
-
-        <div id="container">
-
-            <div id="general" class="hide">
-                <div class="left-side">
-                    <div class="rank menu-header">
-                        <div class="position header-config">
-                            Pos.
-                        </div>
-                        <div class="client header-config">
-                            Cliente
-                        </div>
-                        <div class="target header-config">
-                            Meta
-                        </div>
-                        <div class="actions header-config">
-                            Ações
-                        </div>
-                        <div class="balance header-config">
-                            Saldo
-                        </div>
-                        <div class="overlay header-config">
-                            Overlay
-                        </div>
-                    </div>
-
-                    <div class="ranking-loop">
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                1º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Poker em Casa
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        1.832
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        2.244
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        1.020
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                1.010
-                            </div>
-                            <div class="balance rank-line-config balance-positive">
-                                -1.224,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-
-                        <div class="rank">
-                            <div class="position rank-line-config myclub">
-                                2º
-                            </div>
-                            <div class="client rank-line-config myclub">
-                                <div>
-                                    B2X
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        10
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        2
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config myclub">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config myclub">
-                                1.010
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -224,65
-                            </div>
-                            <div class="overlay rank-line-config myclub">
-                                -10.897,14
-                            </div>
-                        </div>
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                3º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                4º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    A-GAME POKER CLUBE
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                5º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                6º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                7º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                8º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                9º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                10º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                11º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                12º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                13º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                14º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                15º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                16º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                17º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                18º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                19º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Select
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-                        <!-- INÍNIO RANKING DE METAS -->
-                        <div class="rank">
-                            <div class="position rank-line-config">
-                                20º
-                            </div>
-                            <div class="client rank-line-config">
-                                <div>
-                                    Último
-                                </div>
-                                <div class="client-tournament-infos">
-                                    <div class="bra-info-circle">
-                                        B
-                                    </div>
-                                    <div class="bra-values">
-                                        8
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        R
-                                    </div>
-                                    <div class="bra-values">
-                                        14
-                                    </div>
-                                    <div class="bra-info-circle">
-                                        A
-                                    </div>
-                                    <div class="bra-values">
-                                        0
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="target rank-line-config">
-                                1.234,65
-                            </div>
-                            <div class="actions rank-line-config">
-                                847
-                            </div>
-                            <div class="balance rank-line-config balance-negative">
-                                -300,65
-                            </div>
-                            <div class="overlay rank-line-config">
-                                -10.897,14
-                            </div>
-                        </div>
-                        <!-- FIM RANKING DE METAS -->
-
-                    </div>
-
-                    <!-- BARRA TOTAL -->
-                    <div class="total-bar-fixed">
-                        <div class="rank">
-                            <div class="position header-config format-rank-total">
-
-                            </div>
-                            <div class="client header-config format-rank-total rank-total">
-                                TOTAL
-                            </div>
-                            <div class="target header-config format-rank-total">
-                                4.443,28
-                            </div>
-                            <div class="actions header-config format-rank-total">
-                                4.100
-                            </div>
-                            <div class="balance header-config format-rank-total">
-                                -343,28
-                            </div>
-                            <div class="overlay header-config format-rank-total">
-                                -15.258,90
-                            </div>
-                        </div>
-                    </div>
-                    <!-- FIM DA BARRA TOTAL -->
-
-                </div>
-
-                <!-- VERSÃO DESKTOP, BARRA LATERAL -->
-                <div class="right-side">
-                    <div class="logo-pb">
-                        <img class="logo-pb" alt="Logo Pokerbyte" src="./images/logo_pb.png" max-width="100%">
-                    </div>
-                    <div class="card-mtt-infos">
-                        <div class="card-mtt-title">
-                            Torneio:
-                        </div>
-                        <div class="card-mtt-data">
-                            ⭐Supremo
-                        </div>
-
-                        <div class="card-mtt-title">
-                            Liga:
-                        </div>
-                        <div class="card-mtt-data">
-                            Suprema Brasil
-                        </div>
-
-                        <div class="mtt-date">
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Data:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    27/02/2023
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Início:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    12:00
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Late:
-                                </div>
-                                <div class="card-mtt-data">
-                                    16:00
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mtt-date">
-
-                            <div class="mtt-date-header dimension-buyin">
-                                <div class="card-mtt-title">
-                                    Buy-in:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    <span id="local-currency">
-                                        R$
-                                    </span>
-                                    <span>&nbsp</span>
-                                    <span id="buyin-value">
-                                        2.500,00
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header dimension-gtd">
-                                <div class="card-mtt-title">
-                                    Garantido:
-                                </div>
-                                <div class="card-mtt-data">
-                                    <span id="local-currency">
-                                        R$
-                                    </span>
-                                    <span>&nbsp</span>
-                                    <span id="gtd-value">
-                                        1.000.000,00
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-mtt-title">
-                            Arrecadado p/ Garantido:
-                        </div>
-                        <div class="card-mtt-data">
-                            <span id="local-currency">
-                                R$
-                            </span>
-                            <span>&nbsp</span>
-                            <span id="mtt-raised">
-                                984.874,00
-                            </span>
-                        </div>
-
-                        <div class="card-mtt-title">
-                            Overlay:
-                        </div>
-                        <div class="card-mtt-data  overlay-mtt">
-                            -
-                            <span>&nbsp</span>
-                            <span id="local-currency">
-                                R$
-                            </span>
-                            <span>&nbsp</span>
-                            <span id="overlay-value">
-                                15.258,90
-                            </span>
-                        </div>
-                        <div class="card-mtt-title">
-                            Atualizado em:
-                        </div>
-                        <div class="card-mtt-data color-inverse">
-                            27/02/2023 18:39
-                        </div>
-
-                    </div>
-
-
-                </div>
+        </div>
+        <div class="date-union">
+            <div class="union me-colors">
+                Suprema Brasil
             </div>
-            <!-- FIM DA PÁGINA GERAL -->
-
-            <!-- INÍCIO DA PÁGINA DETALHES DO TORNEIO -->
-            <div id="details" class="hide">
-                <div class="info-tournament-style">
-                    <div class="logo-pb">
-                        <img class="logo-pb" alt="Logo Pokerbyte" src="./images/logo_pb.png" max-width="100%">
-                    </div>
-                    <div class="card-mtt-infos">
-                        <div class="card-mtt-title">
-                            Torneio:
-                        </div>
-                        <div class="card-mtt-data">
-                            ⭐Supremo
-                        </div>
-                        <div class="card-mtt-title">
-                            Liga:
-                        </div>
-                        <div class="card-mtt-data">
-                            Suprema Brasil
-                        </div>
-
-                        <div class="mtt-date">
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Data:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    27/02/2023
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Início:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    12:00
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header">
-                                <div class="card-mtt-title">
-                                    Late:
-                                </div>
-                                <div class="card-mtt-data">
-                                    16:00
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mtt-date">
-
-                            <div class="mtt-date-header dimension-buyin">
-                                <div class="card-mtt-title">
-                                    Buy-in:
-                                </div>
-                                <div class="card-mtt-data color-inverse">
-                                    <span id="local-currency">
-                                        R$
-                                    </span>
-                                    <span>&nbsp</span>
-                                    <span id="buyin-value">
-                                        2.500,00
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="mtt-date-header dimension-gtd">
-                                <div class="card-mtt-title">
-                                    Garantido:
-                                </div>
-                                <div class="card-mtt-data">
-                                    <span id="local-currency">
-                                        R$
-                                    </span>
-                                    <span>&nbsp</span>
-                                    <span id="gtd-value">
-                                        1.000.000,00
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-mtt-title">
-                            Arrecadado p/ Garantido:
-                        </div>
-                        <div class="card-mtt-data">
-                            <span id="local-currency">
-                                R$
-                            </span>
-                            <span>&nbsp</span>
-                            <span id="mtt-raised">
-                                984.874,00
-                            </span>
-                        </div>
-
-                        <div class="card-mtt-title">
-                            Overlay:
-                        </div>
-                        <div class="card-mtt-data  overlay-mtt">
-                            -
-                            <span>&nbsp</span>
-                            <span id="local-currency">
-                                R$
-                            </span>
-                            <span>&nbsp</span>
-                            <span id="overlay-value">
-                                15.258,90
-                            </span>
-                        </div>
-                        <div class="card-mtt-title">
-                            Atualizado em:
-                        </div>
-                        <div class="card-mtt-data color-inverse">
-                            27/02/2023 18:39
-                        </div>
-
-                    </div>
-
-
-                </div>
+            <div class="date me-colors">
+                16:00
             </div>
-            <!-- FIM DA PÁGINA DETALHES DO TORNEIO -->
-
-
-            <!-- INÍCIO DA PÁGINA MEU CLUBE -->
-            <div id="my-club" class="hide1">
-                <div>
-                    <div class="logo-pb">
-                        <img class="logo-pb" alt="Logo Pokerbyte" src="./images/logo_pb.png" max-width="100%">
-                    </div>
-
-                    <div class="client-my-club">
-                        Poker em Casa
-                    </div>
-
-                    <div class="bra-box">
-                        <div class="buyin-box">
-                            <span class="bra-info-box">
-                                B
-                            </span>
-                            <span class="bra-content-box">
-                                x1.123
-                            </span>
-                        </div>
-
-                        <div class="buyin-box">
-                            <span class="bra-info-box">
-                                R
-                            </span>
-                            <span class="bra-content-box">
-                                x1.123
-                            </span>
-                        </div>
-
-                        <div class="buyin-box">
-                            <span class="bra-info-box">
-                                A
-                            </span>
-                            <span class="bra-content-box">
-                                x1.123
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FIM DA PÁGINA MEU CLUBE -->
-
+        </div>
+        <div class="buy-in bi-gtd-me">
+            Buy-in: R$ 390,00
+        </div>
+        <div class="gtd bi-gtd-me">
+            GTD: R$ 1.000.000,00
         </div>
     </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-me">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO MAIN EVENT -->
+<div class="card MEc">
+    <!-- TIPO DE EVENTO -->
+    <div class="type MEt">
+        MAIN EVENT
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            ⭐Supremo
+        </div>
+        <div class="date-union">
+            <div class="union me-colors">
+                Suprema Brasil
+            </div>
+            <div class="date me-colors">
+                16:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-me">
+            Buy-in: R$ 390,00
+        </div>
+        <div class="gtd bi-gtd-me">
+            GTD: R$ 1.000.000,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-me">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO MAIN EVENT -->
+<div class="card MEc">
+    <!-- TIPO DE EVENTO -->
+    <div class="type MEt">
+        MAIN EVENT
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            ⭐Supremo
+        </div>
+        <div class="date-union">
+            <div class="union me-colors">
+                Suprema Brasil
+            </div>
+            <div class="date me-colors">
+                16:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-me">
+            Buy-in: R$ 390,00
+        </div>
+        <div class="gtd bi-gtd-me">
+            GTD: R$ 1.000.000,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-me">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO MAIN EVENT -->
+<div class="card MEc">
+    <!-- TIPO DE EVENTO -->
+    <div class="type MEt">
+        MAIN EVENT
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            ⭐Supremo
+        </div>
+        <div class="date-union">
+            <div class="union me-colors">
+                Suprema Brasil
+            </div>
+            <div class="date me-colors">
+                16:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-me">
+            Buy-in: R$ 390,00
+        </div>
+        <div class="gtd bi-gtd-me">
+            GTD: R$ 1.000.000,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-me">
+        Em andamento
+    </div>
+</div>
+        <!-- CARTÃO SATÉLITE -->
+        <div class="card SAc">
+            <div class="type SAt">
+                SATÉLITE
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    5vg Supremo
+                </div>
+                <div class="date-union">
+                    <div class="union sat-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date sat-colors">
+                        13:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-sat">
+                    Buy-in: R$ 39,00
+                </div>
+                <div class="gtd bi-gtd-sat">
+                    GTD: R$ 1.950,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-sat">
+                Em andamento
+            </div>
+        </div>
+<!-- CARTÃO SATÉLITE -->
+<div class="card SAc">
+    <div class="type SAt">
+        SATÉLITE
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            5vg Supremo
+        </div>
+        <div class="date-union">
+            <div class="union sat-colors">
+                Suprema Brasil
+            </div>
+            <div class="date sat-colors">
+                13:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-sat">
+            Buy-in: R$ 39,00
+        </div>
+        <div class="gtd bi-gtd-sat">
+            GTD: R$ 1.950,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-sat">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO SATÉLITE -->
+<div class="card SAc">
+    <div class="type SAt">
+        SATÉLITE
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            5vg Supremo
+        </div>
+        <div class="date-union">
+            <div class="union sat-colors">
+                Suprema Brasil
+            </div>
+            <div class="date sat-colors">
+                13:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-sat">
+            Buy-in: R$ 39,00
+        </div>
+        <div class="gtd bi-gtd-sat">
+            GTD: R$ 1.950,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-sat">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO SATÉLITE -->
+<div class="card SAc">
+    <div class="type SAt">
+        SATÉLITE
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            5vg Supremo
+        </div>
+        <div class="date-union">
+            <div class="union sat-colors">
+                Suprema Brasil
+            </div>
+            <div class="date sat-colors">
+                13:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-sat">
+            Buy-in: R$ 39,00
+        </div>
+        <div class="gtd bi-gtd-sat">
+            GTD: R$ 1.950,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-sat">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO SATÉLITE -->
+<div class="card SAc">
+    <div class="type SAt">
+        SATÉLITE
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            5vg Supremo
+        </div>
+        <div class="date-union">
+            <div class="union sat-colors">
+                Suprema Brasil
+            </div>
+            <div class="date sat-colors">
+                13:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-sat">
+            Buy-in: R$ 39,00
+        </div>
+        <div class="gtd bi-gtd-sat">
+            GTD: R$ 1.950,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-sat">
+        Em andamento
+    </div>
+</div>
+<!-- CARTÃO SATÉLITE -->
+<div class="card SAc">
+    <div class="type SAt">
+        SATÉLITE
+    </div>
+    <!-- CONTEÚDO DO CARD -->
+    <div class="container">
+        <div class="eventName">
+            5vg Supremo
+        </div>
+        <div class="date-union">
+            <div class="union sat-colors">
+                Suprema Brasil
+            </div>
+            <div class="date sat-colors">
+                13:00
+            </div>
+        </div>
+        <div class="buy-in bi-gtd-sat">
+            Buy-in: R$ 39,00
+        </div>
+        <div class="gtd bi-gtd-sat">
+            GTD: R$ 1.950,00
+        </div>
+    </div>
+    <!-- RODAPÉ DO CARD -->
+    <div class="card-footer bi-gtd-sat">
+        Em andamento
+    </div>
+</div>
+        <!-- CARTÃO PARALELO -->
+        <div class="card PAc">
+            <div class="type PAt">
+                PARALELO
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    🥏Battle
+                </div>
+                <div class="date-union">
+                    <div class="union par-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date par-colors">
+                        21:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-par">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-par">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-par">
+                Em andamento
+            </div>
+        </div>
+        <!-- CARTÃO PARALELO -->
+        <div class="card PAc">
+            <div class="type PAt">
+                PARALELO
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    🥏Battle
+                </div>
+                <div class="date-union">
+                    <div class="union par-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date par-colors">
+                        21:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-par">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-par">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-par">
+                Em andamento
+            </div>
+        </div>
+        <!-- CARTÃO PARALELO -->
+        <div class="card PAc">
+            <div class="type PAt">
+                PARALELO
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    🥏Battle
+                </div>
+                <div class="date-union">
+                    <div class="union par-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date par-colors">
+                        21:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-par">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-par">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-par">
+                Em andamento
+            </div>
+        </div>
+        <!-- CARTÃO PARALELO -->
+        <div class="card PAc">
+            <div class="type PAt">
+                PARALELO
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    🥏Battle
+                </div>
+                <div class="date-union">
+                    <div class="union par-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date par-colors">
+                        21:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-par">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-par">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-par">
+                Em andamento
+            </div>
+        </div>
+        <!-- CARTÃO PARALELO -->
+        <div class="card PAc">
+            <div class="type PAt">
+                PARALELO
+            </div>
+            <!-- CONTEÚDO DO CARD -->
+            <div class="container">
+                <div class="eventName">
+                    🥏Battle
+                </div>
+                <div class="date-union">
+                    <div class="union par-colors">
+                        Suprema Brasil
+                    </div>
+                    <div class="date par-colors">
+                        21:00
+                    </div>
+                </div>
+                <div class="buy-in bi-gtd-par">
+                    Buy-in: R$ 390,00
+                </div>
+                <div class="gtd bi-gtd-par">
+                    GTD: R$ 1.000.000,00
+                </div>
+            </div>
+            <!-- RODAPÉ DO CARD -->
+            <div class="card-footer bi-gtd-par">
+                Em andamento
+            </div>
+        </div>
     </div>
 </body>
 

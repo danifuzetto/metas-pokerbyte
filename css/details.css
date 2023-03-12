@@ -1,7 +1,56 @@
-.info-tournament-style {
-    width: 100%;
+.info-box {
+    margin-bottom: 10px;
 }
 
-.logo-pb {
-    margin: 15px auto 0 auto;
+.divided {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mtt-info-style {
+    color: #2E4765;
+}
+
+.mtt-data-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2DAAB8;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #2DAAB8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inverse {
+    background-color: white;
+    color: #2DAAB8;
+    border: 1px solid #2DAAB8;
+}
+
+.overlay {
+    background-color: rgb(223, 17, 17);
+    border: 1px solid rgb(223, 17, 17);
+}
+
+.data-size {
+    width: 48%;
+}
+
+.start-size {
+    width: 25%;
+}
+
+.late-size {
+    width: 25%;
+}
+
+.buyin-size {
+    width: 39%;
+}
+
+.gtd-size {
+    width: 60%;
 }

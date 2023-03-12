@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: calc(100vh - 80px - 15px - 5px - 5px); /* 100vh - tamanho do header - margem bottom do header - padding do card top - padding do card bottom */
+    overflow: auto;
+}
+
+.left-side {
+    width: 750px;
+    max-width: 750px;
+    padding: 1px 0;
+    overflow: auto;
+}
+
+.middle {
+    width: 10px;
+}
+
+.right-side {
+    width: 310px;
+    max-width: 310px;
+}

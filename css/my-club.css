@@ -1,55 +1,77 @@
-#my-club {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    font-size: 14px;
 }
 
-.client-my-club {
-    text-align: center;
-    width: 280px;
-    margin: 30px auto 0 auto;
-    padding: 20px;
+th {
     background-color: #2DAAB8;
     color: white;
-    border-radius: 50px;
-    font-size: 22px;
+    padding: 10px 0;
+    font-weight: 500;
+    border: 1px solid #2DAAB8;
+    max-width: 100%;
+}
+
+td {
+    color: #2E4765;
+    text-align: center;
+    border: 1px solid #2DAAB8;
+    max-width: 100%;
+}
+
+thead {
+    position: sticky;
+    top: -2px;
+}
+
+tfoot {
+    position: sticky;
+    bottom: -2px;
+    /* border: 1px solid #2DAAB8; */
+}
+
+.client {
+    text-align: start;
+    padding: 2px 3px;
+    overflow: hidden;
+}
+
+.client-name {
+    margin-bottom: 5px;
+}
+
+.balance-up {
+    background-color: rgb(18, 168, 18);
+    color: white;
+}
+
+.balance-down {
+    background-color: rgb(223, 17, 17);
+    color: white;
+}
+
+.bra-infos {
+    display: flex;
 }
 
 .bra-box {
-    margin-top: 30px;
     display: flex;
-    justify-content: center;
-}
-
-.buyin-box {
-    display: flex;
+    font-size: 12px;
     margin-right: 5px;
+    align-items: baseline;
 }
 
-.bra-info-box {
-    width: 20px;
+.bra-content {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #2DAAB8;
+    justify-content: center;
     color: white;
-    padding: 10px;
-    margin: 0;
-    border-radius: 50px 0 0 50px;
-    font-size: 24px;
-    font-weight: 700;
-    text-indent: 8px;
-}
-
-.bra-content-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    padding: 15px;
-    border: 1px solid #2DAAB8;
-    border-radius: 0 50px 50px 0;
-    font-size: 20px;
-    color: #2DAAB8;
+    background-color: #2DAAB8;
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 50px;
+    font-weight: 600;
 }
