@@ -1,3 +1,9 @@
+#details {
+    height: calc(100vh - 80px - 15px - 5px - 5px);
+    /* background-color: black; */
+    overflow: auto;
+}
+
 .info-box {
     margin-bottom: 10px;
 }
@@ -24,6 +30,36 @@
     font-weight: 400;
 }
 
+.mtt-data-style-table {
+    display: flex;
+    justify-content: flex-start;
+    border-collapse: initial;
+    background-color: #2DAAB8;
+    color: white;
+    border: 1px solid #2DAAB8;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px 0 0 50px;
+}
+
+.union-table-conf {
+    border-collapse:initial;
+    border-spacing: 0 2px;
+}
+
+.mtt-data-style-end {
+    background-color: #2DAAB8;
+    color: white;
+    width: 60px;
+    max-width: 60px;
+    padding: 10px;
+    border: 1px solid #2DAAB8;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0 50px 50px 0;
+}
+
 .inverse {
     background-color: white;
     color: #2DAAB8;
@@ -31,8 +67,8 @@
 }
 
 .overlay {
-    background-color: rgb(223, 17, 17);
-    border: 1px solid rgb(223, 17, 17);
+    background-color: #ff6961;
+    border: 1px solid #ff6961;
 }
 
 .data-size {
@@ -53,4 +89,12 @@
 
 .gtd-size {
     width: 60%;
+}
+
+.format-union-name {
+    float: left;
+}
+
+.format-target-porcentage {
+    float: right;
 }
