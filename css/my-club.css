@@ -15,6 +15,7 @@ th {
 
 td {
     color: #2E4765;
+    padding: 15px 0;
     text-align: center;
     border: 1px solid rgb(228, 227, 227);
     max-width: 100%;
@@ -23,7 +24,6 @@ td {
 thead {
     position: sticky;
     top: -2px;
-    
 }
 
 tfoot {
@@ -39,7 +39,8 @@ tfoot {
 }
 
 .client-name {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    /* font-weight: 500; */
 }
 
 .balance-up {
@@ -58,7 +59,7 @@ tfoot {
 
 .bra-box {
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 5px;
     align-items: baseline;
 }
@@ -69,10 +70,10 @@ tfoot {
     justify-content: center;
     color: white;
     background-color: #2DAAB8;
-    width: 10px;
-    height: 10px;
-    padding: 3px;
-    font-size: 10px;
+    width: 9px;
+    height: 9px;
+    padding: 2px;
+    font-size: 8px;
     border-radius: 50px;
     font-weight: 600;
 }
@@ -90,5 +91,6 @@ tfoot {
 }
 
 .myclub {
-    background-color: rgb(204, 247, 255)
+    background-color: rgb(204, 247, 255);
+    font-weight: 600;
 }
