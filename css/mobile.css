@@ -1,15 +1,32 @@
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1023px) {
     *::-webkit-scrollbar {
         width: 0px; /* width of the entire scrollbar */
     }
 
     .card {
         height: 100%;
+        max-height: 100%;
         border-radius: 0px;
+    }
+
+    header {
+        height: 91px;
+        margin-bottom: 0px;
+    }
+
+    .bg-card-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        height: 6px;
     }
 
     .container {
         display: flex;
+        height: 100%;
+        max-height: 100%;
     }
 
     .middle {
@@ -23,6 +40,17 @@
     .left-side {
         width: 100%;
         max-width: 100%;
+        overflow: initial;
+    }
+
+    thead {
+        position: sticky;
+        top: 95px;
+    }
+
+    .container-table-myclub {
+        min-height: calc(100vh - 5px - 100px - 30px - 306.7px);
+        overflow: initial;
     }
 }
 

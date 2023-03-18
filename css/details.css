@@ -1,7 +1,5 @@
 #details {
     height: calc(100vh - 80px - 15px - 5px - 5px);
-    /* background-color: black; */
-    overflow: auto;
 }
 
 .info-box {
@@ -85,11 +83,11 @@
 }
 
 .buyin-size {
-    width: 39%;
+    width: 40%;
 }
 
 .gtd-size {
-    width: 60%;
+    width: 59%;
 }
 
 .format-union-name {
