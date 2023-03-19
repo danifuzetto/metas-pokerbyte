@@ -12,6 +12,7 @@
     header {
         height: 91px;
         margin-bottom: 0px;
+        /* teste */
     }
 
     .bg-card-mobile {
@@ -46,6 +47,10 @@
     thead {
         position: sticky;
         top: 95px;
+    }
+
+    #details {
+        height: 100%;
     }
 
     .container-table-myclub {
