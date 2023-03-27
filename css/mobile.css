@@ -55,6 +55,7 @@
 
     .container-table-myclub {
         min-height: calc(100vh - 5px - 100px - 30px - 306.7px);
+        max-height: none;
         overflow: initial;
     }
 }
